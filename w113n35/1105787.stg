@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Airport/ils.xml -112.155478 35.945686 2002.75 321
+OBJECT_SHARED Models/Communications/radio-medium.xml -112.172028 35.945333 1860.77 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -112.1275 35.991667 1877.7 180
+OBJECT_SHARED Models/Communications/vordme_1.xml -112.146058 35.960346 2020.62 180
+OBJECT_SHARED Models/Communications/vordme_1.xml -112.135506 35.964253 2016.42 180
+OBJECT_SHARED Models/Airport/localizer.xml -112.134864 35.963808 2016.51 130.54
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -112.000719 35.957931 2206.96 196.65

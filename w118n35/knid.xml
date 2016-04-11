@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+	<path>armitage.ac</path>
+
+	<nasal>
+		<load>
+			print("loading KNID");
+			var lonN = props.globals.getNode("/position/longitude-deg", 1);
+			var latN = props.globals.getNode("/position/latitude-deg", 1);
+			var door_lon = -117.68483595;
+			var door_lat = 35.68931019;
+			var door = aircraft.door.new("/model/static/w120n30/w118n35/knid.xml/door", 30);
+			var loop_id = 0;
+
+			var loop = func(id) {
+				id == loop_id or return;
+				var dlon = door_lon - lonN.getValue();
+				var dlat = door_lat - latN.getValue();
+				var dist = dlon * dlon + dlat * dlat;
+				door.move(0.000001 &gt; dist);
+				settimer(func { loop(id) }, 5);
+			}
+			loop(loop_id += 1);
+		</load>
+		<unload>loop_id += 1</unload>
+	</nasal>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>40000</max-m>
+	</animation>
+
+
+	<animation>
+		<type>select</type>
+		<object-name>TowerRedLight.1</object-name>
+		<object-name>TowerRedLight.2</object-name>
+		<object-name>TowerRedLight.3</object-name>
+		<object-name>TowerRedLight.4</object-name>
+
+		<object-name>H1RedLight.1</object-name>
+		<object-name>H1RedLight.2</object-name>
+		<object-name>H1RedLight.3</object-name>
+
+		<object-name>H2RedLight.1</object-name>
+		<object-name>H2RedLight.2</object-name>
+		<object-name>H2RedLight.3</object-name>
+		<object-name>H2RedLight.4</object-name>
+
+		<object-name>H3aRedLight.1</object-name>
+		<object-name>H3aRedLight.2</object-name>
+
+		<object-name>H3bRedLight.1</object-name>
+		<object-name>H3bRedLight.2</object-name>
+
+		<object-name>H3mRedLight.1</object-name>
+		<object-name>H3mRedLight.2</object-name>
+		<object-name>H3mRedLight.3</object-name>
+
+		<object-name>H3cRedLight.1</object-name>
+		<object-name>H3cRedLight.2</object-name>
+		<object-name>H3cRedLight.3</object-name>
+		<object-name>H3cRedLight.4</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+
+	<!--  Tower -->
+
+	<animation>
+		<type>translate</type>
+		<object-name>TowerRedLight.1</object-name>
+		<offset-m>59.415</offset-m>
+		<axis>
+			<x>-50.58</x>
+			<y>-19.3</y>
+			<z>24.48</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>TowerRedLight.2</object-name>
+		<offset-m>53.443</offset-m>
+		<axis>
+			<x>-43.41</x>
+			<y>-19.3</y>
+			<z>24.48</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>TowerRedLight.3</object-name>
+		<offset-m>56.106</offset-m>
+		<axis>
+			<x>-43.31</x>
+			<y>-25.94</y>
+			<z>24.48</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>TowerRedLight.4</object-name>
+		<offset-m>61.809</offset-m>
+		<axis>
+			<x>-50.48</x>
+			<y>-25.94</y>
+			<z>24.48</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>TowerRedLight.1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>TowerRedLight.2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>TowerRedLight.3</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>TowerRedLight.4</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>TowerRedLight.1</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>TowerRedLight.2</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>TowerRedLight.3</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>TowerRedLight.4</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+
+
+ <!--  H1 -->
+
+	<animation>
+		<type>translate</type>
+		<object-name>H1RedLight.1</object-name>
+		<offset-m>62.939</offset-m>
+		<axis>
+			<x>-51.06</x>
+			<y>31.24</y>
+			<z>19.45</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>H1RedLight.2</object-name>
+		<offset-m>48.432</offset-m>
+		<axis>
+			<x>31.85</x>
+			<y>30.87</y>
+			<z>19.45</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>H1RedLight.3</object-name>
+		<offset-m>46.548</offset-m>
+		<axis>
+			<x>31.85</x>
+			<y>-27.82</y>
+			<z>19.45</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>H1RedLight.1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H1RedLight.2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H1RedLight.3</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H1RedLight.1</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H1RedLight.2</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+		<animation>
+		<type>dist-scale</type>
+		<object-name>H1RedLight.3</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+
+
+	<!--  H2 -->
+
+	<animation>
+		<type>translate</type>
+		<object-name>H2RedLight.1</object-name>
+		<offset-m>290.61</offset-m>
+		<axis>
+			<x>-51.44</x>
+			<y>-285.51</y>
+			<z>17.1</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H2RedLight.2</object-name>
+		<offset-m>286.031</offset-m>
+		<axis>
+			<x>2.31</x>
+			<y>-285.51</y>
+			<z>17.1</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H2RedLight.3</object-name>
+		<offset-m>348.737</offset-m>
+		<axis>
+			<x>2.31</x>
+			<y>-348.31</y>
+			<z>17.1</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H2RedLight.4</object-name>
+		<offset-m>352.533</offset-m>
+		<axis>
+			<x>-51.44</x>
+			<y>-348.34</y>
+			<z>17.1</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>H2RedLight.1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H2RedLight.2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H2RedLight.3</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H2RedLight.4</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H2RedLight.1</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H2RedLight.2</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H2RedLight.3</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H2RedLight.4</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+ 
+
+
+
+	<!--  H3 -->
+
+	<!-- H3a -->
+	<animation>
+		<type>translate</type>
+		<object-name>H3aRedLight.1</object-name>
+		<offset-m>304.521</offset-m>
+		<axis>
+			<x>134.10</x>
+			<y>-272.12</y>
+			<z>26.48</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H3aRedLight.2</object-name>
+		<offset-m>355.39</offset-m>
+		<axis>
+			<x>227.05</x>
+			<y>-272.12</y>
+			<z>26.48</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>H3aRedLight.1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H3aRedLight.2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3aRedLight.1</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3aRedLight.2</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+
+	<!-- H3b -->
+	<animation>
+		<type>translate</type>
+		<object-name>H3bRedLight.1</object-name>
+		<offset-m>415.768</offset-m>
+		<axis>
+			<x>227.05</x>
+			<y>-347.29</y>
+			<z>26.48</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H3bRedLight.2</object-name>
+		<offset-m>373.214</offset-m>
+		<axis>
+			<x>134.08</x>
+			<y>-347.29</y>
+			<z>26.48</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>H3bRedLight.1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H3bRedLight.2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3bRedLight.1</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3bRedLight.2</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+
+	<!-- H3m -->
+	<animation>
+		<type>translate</type>
+		<object-name>H3mRedLight.1</object-name>
+		<offset-m>395.947</offset-m>
+		<axis>
+			<x>186.12</x>
+			<y>-348.07</y>
+			<z>31.32</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H3mRedLight.2</object-name>
+		<offset-m>377.685</offset-m>
+		<axis>
+			<x>180.5</x>
+			<y>-330.28</y>
+			<z>31.32</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>H3mRedLight.1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H3mRedLight.2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3mRedLight.1</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3mRedLight.2</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+
+ 
+	<!-- H3c -->
+	<animation>
+		<type>translate</type>
+		<object-name>H3cRedLight.1</object-name>
+		<offset-m>373.335</offset-m>
+		<axis>
+			<x>253.51</x>
+			<y>-271.66</y>
+			<z>36.23</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H3cRedLight.2</object-name>
+		<offset-m>390.393</offset-m>
+		<axis>
+			<x>278.02</x>
+			<y>-271.66</y>
+			<z>36.23</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H3cRedLight.3</object-name>
+		<offset-m>405.381</offset-m>
+		<axis>
+			<x>271.56</x>
+			<y>-298.57</y>
+			<z>38.01</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>translate</type>
+		<object-name>H3cRedLight.4</object-name>
+		<offset-m>390.964</offset-m>
+		<axis>
+			<x>253.51</x>
+			<y>-295.42</y>
+			<z>36.23</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>H3cRedLight.1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H3cRedLight.2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H3cRedLight.3</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+	<animation>
+		<type>billboard</type>
+		<object-name>H3cRedLight.4</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+	<type>dist-scale</type>
+	<object-name>H3cRedLight.1</object-name>
+	<interpolation>
+	<entry><ind>0</ind><dep>0.1</dep></entry>
+	<entry><ind>500</ind><dep>0.2</dep></entry>
+	<entry><ind>16000</ind><dep>3</dep></entry>
+	</interpolation>
+ </animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3cRedLight.2</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3cRedLight.3</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+	<animation>
+		<type>dist-scale</type>
+		<object-name>H3cRedLight.4</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>0.1</dep></entry>
+			<entry><ind>500</ind><dep>0.2</dep></entry>
+			<entry><ind>16000</ind><dep>3</dep></entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>w-1-door</object-name>
+		<property>/model/static/w120n30/w118n35/knid.xml/door/position-norm</property>
+		<factor>7.21237</factor>
+		<axis>
+			<x>0</x>
+			<y>7.21237</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>w-2-door</object-name>
+		<property>/model/static/w120n30/w118n35/knid.xml/door/position-norm</property>
+		<factor>14.42474</factor>
+		<axis>
+			<x>0</x>
+			<y>7.21237</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>w-3-door</object-name>
+		<property>/model/static/w120n30/w118n35/knid.xml/door/position-norm</property>
+		<factor>21.63711</factor>
+		<axis>
+			<x>0</x>
+			<y>7.21237</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>w-4-door</object-name>
+		<property>/model/static/w120n30/w118n35/knid.xml/door/position-norm</property>
+		<factor>-21.63711</factor>
+		<axis>
+			<x>0</x>
+			<y>7.21237</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>w-5-door</object-name>
+		<property>/model/static/w120n30/w118n35/knid.xml/door/position-norm</property>
+		<factor>-14.42474</factor>
+		<axis>
+			<x>0</x>
+			<y>7.21237</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>w-6-door</object-name>
+		<property>/model/static/w120n30/w118n35/knid.xml/door/position-norm</property>
+		<factor>-7.21237</factor>
+		<axis>
+			<x>0</x>
+			<y>7.21237</y>
+			<z>0</z>
+		</axis>
+	</animation>
+</PropertyList>

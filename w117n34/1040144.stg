@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml -116.899444 34.282778 2290.73 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -116.899167 34.282778 2292.53 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -116.847028 34.260639 1897.76 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -116.792806 34.278056 1912.89 180
+OBJECT_STATIC Big_Bear_Solar_Observatory.ac -116.921476 34.2617631 2059.29 92

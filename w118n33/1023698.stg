@@ -1,0 +1,11 @@
+OBJECT_SHARED Models/Airport/tacan.xml -117.386997 33.274414 142.13 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.391944 33.348333 -18.4 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.386667 33.279167 -23.8 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.382444 33.286194 -149.29 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.324444 33.307222 16.62 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.272222 33.256944 -88.9 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.253139 33.372722 25.85 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -117.4995439 33.3422414 125.75 322.7
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -117.497029 33.340628 129.22 322.8
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -117.4946258 33.3391222 128.14 323.09
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -117.4920251 33.3374873 115.78 323.04
