@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+  <path>KXTA_dinning.ac</path>
+  
+  <effect>
+    <inherits-from>/Effects/model-combined-deferred</inherits-from>
+    <parameters>
+      <lightmap-enabled type="int">1</lightmap-enabled>
+      <texture n="3">
+	<image>KXTA_dinning_ligthmap.png</image>
+      </texture>
+    </parameters>
+    <object-name>Dinning</object-name>
+  </effect>
+  
+</PropertyList>

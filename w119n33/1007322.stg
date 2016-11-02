@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml -118.485556 33.440833 -64.81 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -118.400833 33.386667 432.07 180
+OBJECT_SHARED Models/Communications/vordme_1.xml -118.41991 33.375056 625.1 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml -118.4934122 33.4491378 -0.02 257.31

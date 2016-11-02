@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ 
+<path>LAX_pylons.ac</path>
+
+ 
+
+<!-- NO COLORS -->
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh6 Model_Material1</object-name>
+  
+<object-name>Mesh7 Model_Material1</object-name>
+  
+<object-name>Mesh8 Model_Material1</object-name>
+  
+<object-name>Mesh9 Model_Material1</object-name>
+  
+<object-name>Mesh10 Model_Mate</object-name>
+     
+<object-name>Mesh11 Model_Material</object-name>
+ 
+<object-name>Mesh12 Model_Mate</object-name>
+   
+<object-name>Mesh13 Model_Mate</object-name>
+   
+<object-name>Mesh14 Model_Mate</object-name>
+   
+<object-name>Mesh15 Model_Mate</object-name>
+   
+<object-name>Mesh16 Model_Mate</object-name>
+   
+<object-name>Mesh17 Model_Material</object-name>
+
+<object-name>Mesh18 Model_Mate</object-name>
+   
+<object-name>Mesh19 Model_Material</object-name>
+  
+<object-name>Mesh20 Model_Mate</object-name>
+   
+<condition>
+			
+<less-than-equals>
+				
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</less-than-equals>
+
+</condition>
+
+
+<emission>
+			
+<red>0</red>
+			
+<green>0</green>
+			
+<blue>0</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_1.rgb</texture>
+ 
+</animation>
+
+ 
+
+<!-- RED --> 
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh6 Model_Material1</object-name>
+  
+<object-name>Mesh7 Model_Material1</object-name>
+  
+<object-name>Mesh8 Model_Material1</object-name>
+  
+<object-name>Mesh9 Model_Material1</object-name>
+  
+<object-name>Mesh10 Model_Mate</object-name>
+     
+<object-name>Mesh11 Model_Material</object-name>
+ 
+<object-name>Mesh12 Model_Mate</object-name>
+   
+<object-name>Mesh13 Model_Mate</object-name>
+   
+<object-name>Mesh14 Model_Mate</object-name>
+   
+<object-name>Mesh15 Model_Mate</object-name>
+   
+<object-name>Mesh16 Model_Mate</object-name>
+   
+<object-name>Mesh17 Model_Material</object-name>
+
+<object-name>Mesh18 Model_Mate</object-name>
+   
+<object-name>Mesh19 Model_Material</object-name>
+  
+<object-name>Mesh20 Model_Mate</object-name>
+    
+<condition>
+			
+<equals>
+				
+<property>/sim/time/utc/second</property>				
+<value>0</value>
+			
+</equals>
+		
+<greater-than>
+				
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</greater-than>
+	
+</condition>
+
+
+<emission>
+			
+<red>1</red>
+			
+<green>0</green>
+			
+<blue>0</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_1.rgb</texture>
+ 
+</animation>
+
+ 
+
+<!-- GREEN --> 
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh6 Model_Material1</object-name>
+  
+<object-name>Mesh7 Model_Material1</object-name>
+  
+<object-name>Mesh8 Model_Material1</object-name>
+  
+<object-name>Mesh9 Model_Material1</object-name>
+  
+<object-name>Mesh10 Model_Mate</object-name>
+     
+<object-name>Mesh11 Model_Material</object-name>
+ 
+<object-name>Mesh12 Model_Mate</object-name>
+   
+<object-name>Mesh13 Model_Mate</object-name>
+   
+<object-name>Mesh14 Model_Mate</object-name>
+   
+<object-name>Mesh15 Model_Mate</object-name>
+   
+<object-name>Mesh16 Model_Mate</object-name>
+   
+<object-name>Mesh17 Model_Material</object-name>
+
+<object-name>Mesh18 Model_Mate</object-name>
+   
+<object-name>Mesh19 Model_Material</object-name>
+  
+<object-name>Mesh20 Model_Mate</object-name>
+    
+<condition>
+			
+<equals>
+				
+<property>/sim/time/utc/second</property>				
+<value>10</value>
+			
+</equals>
+	
+<greater-than>
+				
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</greater-than>
+		
+</condition>
+
+
+<emission>
+			
+<red>0</red>
+			
+<green>1</green>
+			
+<blue>0</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_1.rgb</texture>
+ 
+</animation>
+
+
+
+<!-- ORANGE --> 
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh6 Model_Material1</object-name>
+  
+<object-name>Mesh7 Model_Material1</object-name>
+  
+<object-name>Mesh8 Model_Material1</object-name>
+  
+<object-name>Mesh9 Model_Material1</object-name>
+  
+<object-name>Mesh10 Model_Mate</object-name>
+     
+<object-name>Mesh11 Model_Material</object-name>
+ 
+<object-name>Mesh12 Model_Mate</object-name>
+   
+<object-name>Mesh13 Model_Mate</object-name>
+   
+<object-name>Mesh14 Model_Mate</object-name>
+   
+<object-name>Mesh15 Model_Mate</object-name>
+   
+<object-name>Mesh16 Model_Mate</object-name>
+   
+<object-name>Mesh17 Model_Material</object-name>
+
+<object-name>Mesh18 Model_Mate</object-name>
+   
+<object-name>Mesh19 Model_Material</object-name>
+  
+<object-name>Mesh20 Model_Mate</object-name>
+   
+<condition>
+			
+<equals>
+				
+<property>/sim/time/utc/second</property>				
+<value>20</value>
+			
+</equals>
+	
+<greater-than>
+				
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</greater-than>
+		
+</condition>
+
+
+<emission>
+			
+<red>1</red>
+			
+<green>0.5</green>
+			
+<blue>0</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_1.rgb</texture>
+ 
+</animation>
+
+ 
+
+<!-- BLUE --> 
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh6 Model_Material1</object-name>
+  
+<object-name>Mesh7 Model_Material1</object-name>
+  
+<object-name>Mesh8 Model_Material1</object-name>
+  
+<object-name>Mesh9 Model_Material1</object-name>
+  
+<object-name>Mesh10 Model_Mate</object-name>
+     
+<object-name>Mesh11 Model_Material</object-name>
+ 
+<object-name>Mesh12 Model_Mate</object-name>
+   
+<object-name>Mesh13 Model_Mate</object-name>
+   
+<object-name>Mesh14 Model_Mate</object-name>
+   
+<object-name>Mesh15 Model_Mate</object-name>
+   
+<object-name>Mesh16 Model_Mate</object-name>
+   
+<object-name>Mesh17 Model_Material</object-name>
+
+<object-name>Mesh18 Model_Mate</object-name>
+   
+<object-name>Mesh19 Model_Material</object-name>
+  
+<object-name>Mesh20 Model_Mate</object-name>
+     
+<condition>
+			
+<equals>
+				
+<property>/sim/time/utc/second</property>				
+<value>30</value>
+			
+</equals>
+		
+<greater-than>
+				
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</greater-than>
+	
+</condition>
+
+
+<emission>
+			
+<red>0</red>
+			
+<green>0</green>
+			
+<blue>1</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_1.rgb</texture>
+ 
+</animation>
+
+ 
+
+
+<!-- YELLOW --> 
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh6 Model_Material1</object-name>
+  
+<object-name>Mesh7 Model_Material1</object-name>
+  
+<object-name>Mesh8 Model_Material1</object-name>
+  
+<object-name>Mesh9 Model_Material1</object-name>
+  
+<object-name>Mesh10 Model_Mate</object-name>
+     
+<object-name>Mesh11 Model_Material</object-name>
+ 
+<object-name>Mesh12 Model_Mate</object-name>
+   
+<object-name>Mesh13 Model_Mate</object-name>
+   
+<object-name>Mesh14 Model_Mate</object-name>
+   
+<object-name>Mesh15 Model_Mate</object-name>
+   
+<object-name>Mesh16 Model_Mate</object-name>
+   
+<object-name>Mesh17 Model_Material</object-name>
+
+<object-name>Mesh18 Model_Mate</object-name>
+   
+<object-name>Mesh19 Model_Material</object-name>
+  
+<object-name>Mesh20 Model_Mate</object-name>
+     
+<condition>
+			
+<equals>
+				
+<property>/sim/time/utc/second</property>				
+<value>40</value>
+			
+</equals>
+		
+<greater-than>
+				
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</greater-than>
+	
+</condition>
+
+
+<emission>
+			
+<red>1</red>
+			
+<green>1</green>
+			
+<blue>0</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_1.rgb</texture>
+ 
+</animation>
+
+ 
+
+<!-- PURPLE --> 
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh6 Model_Material1</object-name>
+  
+<object-name>Mesh7 Model_Material1</object-name>
+  
+<object-name>Mesh8 Model_Material1</object-name>
+  
+<object-name>Mesh9 Model_Material1</object-name>
+  
+<object-name>Mesh10 Model_Mate</object-name>
+     
+<object-name>Mesh11 Model_Material</object-name>
+ 
+<object-name>Mesh12 Model_Mate</object-name>
+   
+<object-name>Mesh13 Model_Mate</object-name>
+   
+<object-name>Mesh14 Model_Mate</object-name>
+   
+<object-name>Mesh15 Model_Mate</object-name>
+   
+<object-name>Mesh16 Model_Mate</object-name>
+   
+<object-name>Mesh17 Model_Material</object-name>
+
+<object-name>Mesh18 Model_Mate</object-name>
+   
+<object-name>Mesh19 Model_Material</object-name>
+  
+<object-name>Mesh20 Model_Mate</object-name>
+   
+<condition>
+			
+<equals>
+				
+<property>/sim/time/utc/second</property>				
+<value>50</value>
+			
+</equals>
+		
+<greater-than>
+				
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</greater-than>
+	
+</condition>
+
+
+<emission>
+			
+<red>1</red>
+			
+<green>0</green>
+			
+<blue>1</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_1.rgb</texture>
+ 
+</animation>
+
+ 
+
+<!-- LETTERS -->
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh3 LAX1 Model_Mate</object-name>
+  
+<object-name>Mesh4 LAX1 Model_Mate</object-name>
+  
+<object-name>Mesh5 X1 Model_Materi</object-name>
+  
+<condition>
+			
+<greater-than>
+				
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</greater-than>
+	
+</condition>
+
+
+<emission>
+			
+<red>1</red>
+			
+<green>1</green>
+			
+<blue>1</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_2.rgb</texture>
+ 
+</animation>
+
+ 
+
+<animation>
+  
+<type>material</type>
+   
+<object-name>Mesh3 LAX1 Model_Mate</object-name>
+  
+<object-name>Mesh4 LAX1 Model_Mate</object-name>
+  
+<object-name>Mesh5 X1 Model_Materi</object-name>
+  
+<condition>
+				
+<less-than-equals>
+			
+<property>/sim/time/sun-angle-rad</property>
+				
+<value>1.57</value>
+			
+</less-than-equals>
+
+</condition>
+
+
+<emission>
+			
+<red>1</red>
+			
+<green>1</green>
+			
+<blue>1</blue>
+		
+</emission>
+	
+<texture>LAX_pylons_2.rgb</texture>
+ 
+</animation>
+
+</PropertyList>

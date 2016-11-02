@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml -118.373056 33.359444 305.02 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -118.3725 33.36 306.1 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -118.371667 33.359722 308.7 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -118.352556 33.349944 332.8 180
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac -118.3239017 33.34839 0.67 346.9
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac -118.3220186 33.3451019 1.48 221.96

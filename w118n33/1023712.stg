@@ -1,0 +1,14 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.82 33.5675 -117 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.811944 33.606111 169.34 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.811444 33.605333 190.13 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.811389 33.605611 174.03 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.811361 33.605472 156.73 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.811361 33.6055 167.53 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -117.811333 33.605389 174.7 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_05.ac -117.874167 33.621111 -346.1 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_08.ac -117.875833 33.62 -370.63 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_09.ac -117.872778 33.618611 -354.83 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_09.ac -117.8725 33.619722 -360.26 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -117.8482779 33.605552 103.87 174.35
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -117.8444439 33.6052359 145.09 173.9
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -117.8397873 33.6047903 143.46 173.44

@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Airport/ils.xml -113.093931 37.708511 1704.46 146.67
+OBJECT_SHARED Models/Communications/radio-medium.xml -113.185833 37.696667 1563.49 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -113.181778 37.6975 1563.8 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -113.179294 37.697497 1564.42 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -113.085 37.666389 1676.85 180
+OBJECT_SHARED Models/Communications/radio-medium.xml -113.083611 37.666806 1670.52 180
+OBJECT_SHARED Models/Airport/localizer.xml -113.11005 37.687997 1697.42 304.13
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac -113.246304 37.651871 1715.77 204.88
