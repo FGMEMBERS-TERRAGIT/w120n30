@@ -199,3 +199,11 @@ OBJECT_SHARED Models/lib/SmHangar.ac -114.59484 32.65888 60.99 45.57
 OBJECT_SHARED Models/lib/SmHangar.ac -114.59459 32.65928 60.99 316.72
 OBJECT_SHARED Models/Airport/tower_small_airfield.xml -114.59368 32.65941 61.19 45
 # END dsf2stg
+OBJECT_SHARED Models/Aircraft/KC-135-lowpoly.xml -114.5996423 32.649814 60.43 140
+OBJECT_SHARED Models/Aircraft/rafaleM_lowpoly.ac -114.6001749 32.6500428 60.37 92
+OBJECT_SHARED Models/Aircraft/rafaleM_lowpoly.ac -114.600174 32.6498208 60.39 92
+OBJECT_SHARED Models/Aircraft/f16_lowpoly.ac -114.5985551 32.6500236 60.53 92
+OBJECT_SHARED Models/Aircraft/f16_lowpoly.ac -114.5985536 32.6498082 60.53 92
+OBJECT_SHARED Models/Aircraft/f16_aggressor_lowpoly.ac -114.5980278 32.6500138 60.58 88
+OBJECT_SHARED Models/Aircraft/f16_aggressor_lowpoly.ac -114.5980197 32.6498208 60.58 92
+OBJECT_SHARED Models/Aircraft/f16_aggressor_lowpoly.ac -114.5980142 32.64964 60.59 92
