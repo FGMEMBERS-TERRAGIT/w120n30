@@ -41,3 +41,17 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac -115.511888 34.566741 288.22 1.6
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -115.509722 34.566797 294.24 359.96
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -115.507647 34.566741 302.67 358.81
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -115.505602 34.566726 311.61 359.49
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/propane-tank.ac -115.51028 34.51352 -0.58 159.798
+OBJECT_SHARED Models/Transport/hatchback_red.ac -115.51011 34.51371 -0.58 65.1857
+OBJECT_SHARED Models/lib/lamp10m.xml -115.51011 34.51368 -0.58 253.496
+OBJECT_SHARED Models/lib/deciduous-tree.xml -115.51013 34.51355 -0.58 92.2906
+OBJECT_SHARED Models/lib/deciduous-tree.xml -115.51013 34.51358 -0.58 235.175
+OBJECT_SHARED Models/lib/deciduous-tree.xml -115.51016 34.51368 -0.58 86.5318
+OBJECT_SHARED Models/lib/deciduous-tree.xml -115.51023 34.51370 -0.58 243.435
+OBJECT_SHARED Models/lib/deciduous-tree.xml -115.51030 34.51370 -0.58 207.095
+OBJECT_SHARED Models/lib/deciduous-tree.xml -115.51036 34.51365 -0.58 153.083
+OBJECT_SHARED Models/lib/deciduous-tree.xml -115.51036 34.51367 -0.58 244.983
+# END dsf2stg
