@@ -2,3 +2,9 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac -114.472323 36.005001 419.04 34.
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -114.456485 36.013655 432.58 34.05
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -114.452645 36.015754 451.47 33.93
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -114.452501 36.015832 452.19 33.81
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/Aircraft/Zlin50xl_low_poly.xml -114.33398 36.02102 453.36 80.3368
+OBJECT_SHARED Models/Aircraft/Cessna172_red.xml -114.33395 36.02112 452.98 79.7
+# END dsf2stg
