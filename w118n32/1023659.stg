@@ -174,3 +174,5 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac -117.0010869 32.651968 135.35 50
 OBJECT_SHARED Models/Sport/RedbullRedPylon.ac -117.17014 32.70496 -0.02 180
 OBJECT_SHARED Models/Sport/RedbullRedPylon.ac -117.1687 32.70463 -0.02 180
 OBJECT_SHARED Models/Sport/RedbullRedPylon.ac -117.16808 32.7037 -0.02 180
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml -117.2426533 32.6650683 -0.43 0
+OBJECT_STATIC coronado-bridge.ac -117.150791 32.6925032 0 88

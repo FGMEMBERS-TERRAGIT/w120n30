@@ -50,3 +50,4 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac -118.797575 35.437391 239.59 231
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -118.796211 35.438797 242.17 233.59
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -118.795705 35.439397 242.74 222.3
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -118.79475 35.43983 246.18 209.1
+OBJECT_SHARED Models/Industrial/petrol1.ac -118.99378 35.4531593 233.02 288
