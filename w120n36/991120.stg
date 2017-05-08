@@ -2,3 +2,8 @@ OBJECT_SHARED Models/Airport/tacan.xml -119.966317 36.344097 71.69 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -119.897778 36.298056 -126.51 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -119.786667 36.297778 -98.69 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -119.772917 36.266611 -71.62 180
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/Airport/tower_small_airfield.xml -119.94910 36.32711 70.96 203.79
+# END dsf2stg
