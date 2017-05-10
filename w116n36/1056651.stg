@@ -372,10 +372,15 @@ OBJECT_SHARED Models/Aircraft/m2000-B_lowpoly.ac -115.0369148 36.2397563 566.4 3
 OBJECT_SHARED Models/Aircraft/m2000-B_lowpoly.ac -115.0367621 36.2396558 566.25 320
 OBJECT_SHARED Models/Aircraft/m2000-desert_lowpoly.ac -115.0365075 36.2401442 566.65 320
 OBJECT_SHARED Models/Aircraft/m2000-desert_lowpoly.ac -115.0363631 36.2400257 566.48 320
+OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.0368873 36.2417852 568.4 24
 OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.036305 36.2407047 567.13 316
 OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.0361724 36.2406115 567 316
+OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.0360837 36.2408827 567.23 320
 OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.0360536 36.2405242 566.87 316
+OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.0359659 36.2408022 567.11 320
 OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.0359298 36.2404377 566.75 316
+OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.0358358 36.2407094 566.98 320
+OBJECT_SHARED Models/Aircraft/f16_thunderbird_lowpoly.ac -115.0357127 36.2406216 566.86 320
 OBJECT_SHARED Models/Aircraft/f16_lowpoly.ac -115.037605 36.2395859 566.45 320
 OBJECT_SHARED Models/Aircraft/f16_lowpoly.ac -115.0374636 36.2394925 566.31 320
 OBJECT_SHARED Models/Aircraft/f16_lowpoly.ac -115.0373081 36.2393848 566.16 320

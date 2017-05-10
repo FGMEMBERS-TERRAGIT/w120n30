@@ -56,8 +56,8 @@ OBJECT_SHARED Models/Boundaries/Fence_10m.ac -118.3350419 33.7967913 34.46 91
 OBJECT_SHARED Models/Boundaries/Fence_10m.ac -118.3350311 33.7970476 33.95 144
 OBJECT_SHARED Models/Boundaries/Fence_50m.ac -118.3350487 33.796031 36.01 89.3
 OBJECT_SHARED Models/Boundaries/Fence_50m.ac -118.3350433 33.7964801 35.07 89.4
-OBJECT_SHARED Models/Communications/mil-antena-45m.xml -118.3369472 33.7992474 10.71 0
-OBJECT_SHARED Models/Communications/mil-antena-45m.xml -118.3364421 33.7989129 10.74 0
+OBJECT_SHARED Models/Communications/mil-antena-45m.xml -118.33676 33.799089 10.77 0
+OBJECT_SHARED Models/Communications/mil-antena-45m.xml -118.336342 33.798817 10.79 0
 OBJECT_SHARED Models/Aircraft/F-15-lowpoly.xml -118.330731 33.7949246 33.81 180
 OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml -118.2517372 33.7632131 -0.01 136.84
 OBJECT_SHARED Models/Airport/thangar.ac -118.3346442 33.7954098 37 90.1
@@ -131,15 +131,16 @@ OBJECT_SHARED Models/Airport/hanger-45fx36f-white-01.xml -118.3322687 33.797093 
 OBJECT_SHARED Models/Airport/hanger-45fx36f-white-01.xml -118.3322682 33.7972046 30.95 0
 OBJECT_SHARED Models/Airport/hanger-45fx36f-white-01.xml -118.3322674 33.7973181 30.72 0
 OBJECT_SHARED Models/Airport/hanger-45fx36f-white-01.xml -118.3322669 33.7969798 31.42 0
+OBJECT_SHARED Models/Airport/tower.xml -118.3411105 33.80096119 33.31 52
 OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml -118.34057338 33.80013204 34.24 322.1
 OBJECT_SHARED Models/Airport/windsock_lit.xml -118.3458826 33.8096677 22.89 0
-OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -118.3412126 33.8010108 33.32 0
+OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -118.34141418 33.80112702 33.29 0
 OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -118.3372572 33.7972284 35.9 0
 OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -118.33719 33.7971882 35.91 0
 OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -118.3367664 33.7969254 35.96 0
 OBJECT_SHARED Models/Trees/platanus_acerifolia_15m.xml -118.3367118 33.7968814 35.99 0
 OBJECT_SHARED Models/Trees/platanus_acerifolia_25m.xml -118.3373126 33.7972864 35.85 0
-OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac -118.3367404 33.799094 32.18 230.1
+OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac -118.336567 33.798947 32.23 231.6
 OBJECT_SHARED Models/Transport/hatchback_red.ac -118.3423427 33.8015915 33.24 144
 OBJECT_SHARED Models/Transport/hatchback_red.ac -118.3418514 33.8011593 33.61 0
 OBJECT_SHARED Models/Transport/hatchback_silver.ac -118.3322995 33.7967775 31.88 0
@@ -208,7 +209,6 @@ OBJECT_SHARED Models/Transport/hatchback_green.ac -118.3337346 33.7957437 35.52 
 OBJECT_SHARED Models/Airport/hangar_new.xml -118.3429091 33.8017598 33.38 142.4
 OBJECT_SHARED Models/Airport/bud_meteo.xml -118.3350444 33.7968997 34.25 2.1
 OBJECT_SHARED Models/Power/old_trafo.ac -118.3326202 33.7960006 33.84 0
-OBJECT_SHARED Models/Airport/TW_EPLB.xml -118.34130447 33.80107978 33.28 56
 OBJECT_SHARED Models/Airport/EDWB_DSAirServHangar.xml -118.3465889 33.8040721 30.84 52
 OBJECT_SHARED Models/Airport/EDWB_DSAirServHangar.xml -118.3461825 33.8037941 31.26 52
 OBJECT_SHARED Models/Airport/EDWB_DSAirServHangar.xml -118.3455154 33.8032752 32.03 51.4
