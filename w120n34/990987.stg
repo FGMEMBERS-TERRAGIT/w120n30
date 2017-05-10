@@ -25,6 +25,7 @@ OBJECT_SHARED Models/Commercial/generic_skyscraper_05.ac -119.194167 34.199444 -
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -119.168552 34.129855 -424.28 180
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -119.168115 34.129589 -424.44 180
 OBJECT_SHARED Models/Airport/localizer.xml -119.220372 34.200903 8.05 0.51
+OBJECT_SHARED Models/Airport/tower.xml -119.206997 34.198714 10.69 0
 OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac -119.2242229 34.157999 0.3 355.85
 # dsf2stg
 # do not edit below this line

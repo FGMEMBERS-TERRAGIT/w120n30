@@ -46,7 +46,7 @@ MATERIAL "0037_SandyBrown" rgb 1 1 0 amb 0.4 0.4 0.4 emis 0 0 0 spec 0.2 0.2 0.2
 OBJECT world
 kids 44
 OBJECT poly
-name "blah"
+name "Wheel"
 numvert 529
 0.475528 13.055492 1.749079
 0.500000 13.210000 2.000000
