@@ -3,5 +3,4 @@ OBJECT_SHARED Models/Airport/marker.ac -115.87628 37.36097 1435.74 158.33
 OBJECT_SHARED Models/Airport/marker.ac -115.82251 37.29491 1427.78 158.33
 OBJECT_SHARED Models/Airport/marker.ac -115.82251 37.29491 1427.78 158.33
 OBJECT_SHARED Models/Airport/localizer.xml -115.8204 37.28638 1346.39 22.4
-OBJECT_SHARED Models/Communications/Antenna3.ac -115.7757 37.25164 1351.61 0
-OBJECT_SHARED Models/Communications/Antenna3.ac -115.7757 37.25164 1351.61 158.33
+OBJECT_SHARED Models/Communications/Antenna4.ac -115.7757 37.25164 1351.61 12

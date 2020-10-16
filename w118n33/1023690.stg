@@ -20,7 +20,6 @@ OBJECT_SHARED Models/Commercial/generic_skyscraper_02.ac -117.284167 33.126111 -
 OBJECT_SHARED Models/Commercial/generic_skyscraper_08.ac -117.284722 33.128889 -396.38 180
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml -117.336111 33.136111 -369.9 180
 OBJECT_SHARED Models/Power/generic_pylon_200m.ac -117.334722 33.2125 46.64 180
-OBJECT_SHARED Models/Power/generic_pylon_200m.ac -117.298056 33.127222 71.27 180
 OBJECT_SHARED Models/Power/generic_pylon_100m.ac -117.346944 33.240833 74.49 180
 OBJECT_SHARED Models/Misc/generic_monument_01.ac -117.363056 33.218333 -113.59 180
 OBJECT_SHARED Models/Airport/localizer.xml -117.288894 33.126825 93.05 349.07
