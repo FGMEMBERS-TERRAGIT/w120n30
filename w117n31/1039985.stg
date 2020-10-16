@@ -2,3 +2,8 @@ OBJECT_SHARED Models/Airport/ndb.ac -116.606942 31.795911 2.82 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -116.64 31.856944 -139.99 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -116.635833 31.852778 -120.2 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -116.635556 31.853611 -50.38 180
+OBJECT_SHARED Models/Maritime/Civilian/ContainerShip.xml -116.62925 31.853302 0.05 0
+OBJECT_SHARED Models/Maritime/Civilian/CruiseShip.ac -116.624615 31.856236 0 75
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_orange.xml -116.623049 31.860574 3.5 0
+OBJECT_SHARED Models/Residential/hr20x20.ac -116.658411 31.868082 33.04 0
+OBJECT_SHARED Models/Communications/Antenna1.ac -116.631975 31.872893 113.79 0
