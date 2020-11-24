@@ -19,3 +19,8 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac -112.634039 33.102082 269.53 269
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -112.634031 33.115926 270.49 269.95
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -112.63403 33.116832 271.55 269.94
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -112.634028 33.118792 273.79 269.96
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/Transport/hatchback_black.ac -112.66197 33.10868 0.00 160.91
+# END dsf2stg

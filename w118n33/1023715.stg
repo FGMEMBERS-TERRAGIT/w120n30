@@ -8,3 +8,13 @@ OBJECT_SHARED Models/Communications/radio-medium.xml -117.140278 33.501111 188.1
 OBJECT_SHARED Models/Communications/radio-medium.xml -117.106111 33.520556 220.13 180
 OBJECT_SHARED Models/Communications/radio-medium.xml -117.043333 33.549722 263.73 180
 OBJECT_SHARED Models/Commercial/generic_skyscraper_03.ac -117.1625 33.503333 -184.17 180
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/SmHangar.ac -117.23788 33.56222 0.00 20.5562
+OBJECT_SHARED Models/lib/SmHangar.ac -117.23855 33.56386 341.73 19.6042
+OBJECT_SHARED Models/lib/SmHangar.ac -117.23873 33.56434 343.11 18.7729
+OBJECT_SHARED Models/lib/SmHangar.ac -117.23878 33.56446 343.49 17.0818
+OBJECT_SHARED Models/lib/SmHangar.ac -117.23882 33.56457 343.68 16.3071
+OBJECT_SHARED Models/lib/SmHangar.ac -117.23887 33.56469 343.77 16.7266
+# END dsf2stg

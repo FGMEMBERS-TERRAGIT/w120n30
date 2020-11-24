@@ -43,3 +43,8 @@ OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac -118.0917417 33.73
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac -118.0907556 33.7332667 0 141.68
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac -118.0898028 33.73305 0 178.22
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac -118.183611 33.69 -5.21 256.64
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/OilRig.ac -118.06214 33.66200 0.00 359.12
+# END dsf2stg

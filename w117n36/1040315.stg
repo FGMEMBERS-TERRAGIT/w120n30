@@ -1,1 +1,6 @@
 OBJECT_SHARED Models/Communications/radio-medium.xml -116.070306 36.934667 1290.71 180
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/LongRow.ac -116.00709 36.92665 0.00 229.558
+# END dsf2stg
